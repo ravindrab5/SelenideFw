@@ -1,0 +1,4469 @@
+{
+  "managementCompanies": [
+    {
+      "id": "888",
+      "managementCompanyType": "MANAGEMENTCOMPANY",
+      "uniqueManagementCompanyName": "marriot hotels",
+      "managementCompanyName": "Marriot hotels",
+      "licenceContactInitial": "mr",
+      "licenceContactFirstName": "Jamset",
+      "licenceContactLastName": "Tataji",
+      "addressLine1": "Express Towers-2",
+      "country": "India",
+      "diallingPrefix": "+91",
+      "city": "Mumbai",
+      "postalCode": "99999",
+      "areaCode": "999",
+      "phoneNumber": "9099",
+      "activationDate": "2020-02-17T00:00:00.000+0000",
+      "chimpsId": "1",
+      "uniqueClientCode": "mar",
+      "clientCode": "MAR",
+      "contactTitle": "Director",
+      "contactEmail": "mar@dummy.com",
+      "addressLine2": "Nariman Point",
+      "state": "Maharashtra",
+      "timezone": "Pacific/Kiritimati",
+      "admins": [
+        "mar@dummy.com"
+      ]
+    }
+  ],
+  "managementCompanyGeoSetupHeaders": [
+    {
+      "id": "165",
+      "managementCompanyId": "888",
+      "name": "Tier1"
+    },
+    {
+      "id": "166",
+      "managementCompanyId": "888",
+      "name": "Tier2"
+    },
+    {
+      "id": "167",
+      "managementCompanyId": "888",
+      "name": "Tier3"
+    }
+  ],
+  "managementCompanyGeoSetups": [
+    {
+      "id": "268",
+      "managementCompanyId": "888",
+      "name": "DUMMY",
+      "path": "0",
+      "sequenceNo": "0"
+    },
+    {
+      "id": "269",
+      "managementCompanyId": "888",
+      "name": "Americas",
+      "path": "0/268",
+      "sequenceNo": "0"
+    },
+    {
+      "id": "370",
+      "managementCompanyId": "888",
+      "name": "Canada",
+      "path": "0/268/269",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "371",
+      "managementCompanyId": "888",
+      "name": "Toronto",
+      "path": "0/268/269/270",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "372",
+      "managementCompanyId": "888",
+      "name": "USA",
+      "path": "0/268/269",
+      "sequenceNo": "2"
+    },
+    {
+      "id": "373",
+      "managementCompanyId": "888",
+      "name": "Boston",
+      "path": "0/268/269/272",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "374",
+      "managementCompanyId": "888",
+      "name": "NYC",
+      "path": "0/268/269/272",
+      "sequenceNo": "2"
+    },
+    {
+      "id": "375",
+      "managementCompanyId": "888",
+      "name": "Europe",
+      "path": "0/268",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "376",
+      "managementCompanyId": "888",
+      "name": "France",
+      "path": "0/268/275",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "377",
+      "managementCompanyId": "888",
+      "name": "Paris",
+      "path": "0/268/275/276",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "378",
+      "managementCompanyId": "888",
+      "name": "UK",
+      "path": "0/268/275",
+      "sequenceNo": "2"
+    },
+    {
+      "id": "379",
+      "managementCompanyId": "888",
+      "name": "Asia",
+      "path": "0/268",
+      "sequenceNo": "2"
+    },
+    {
+      "id": "380",
+      "managementCompanyId": "888",
+      "name": "INDIA",
+      "path": "0/268/279",
+      "sequenceNo": "1"
+    },
+    {
+      "id": "381",
+      "managementCompanyId": "888",
+      "name": "Chennai",
+      "path": "0/268/279/280",
+      "sequenceNo": "1"
+    }
+  ],
+  "operationalSetups": [
+    {
+      "managementCompanyId": "888",
+      "operationTierName": "Star",
+      "isPropertyDisplay": true,
+      "detailList": [
+        {
+          "optionId": "96",
+          "optionName": "5 Star",
+          "optionOrder": "0"
+        },
+        {
+          "optionId": "97",
+          "optionName": "4 Star",
+          "optionOrder": "1"
+        },
+        {
+          "optionId": "98",
+          "optionName": "3 Star",
+          "optionOrder": "2"
+        }
+      ]
+    },
+    {
+      "managementCompanyId": "888",
+      "operationTierName": "Size",
+      "isPropertyDisplay": false,
+      "detailList": [
+        {
+          "optionId": "99",
+          "optionName": "500+",
+          "optionOrder": "0"
+        },
+        {
+          "optionId": "100",
+          "optionName": "300-500",
+          "optionOrder": "1"
+        }
+      ]
+    }
+  ],
+  "impactTypes": [
+    {
+      "name": "Sports",
+      "isUserDefined": true,
+      "rank": "1",
+      "managementCompanyId": "888"
+    },
+    {
+      "name": "City-wide",
+      "isUserDefined": true,
+      "rank": "2",
+      "managementCompanyId": "888"
+    },
+    {
+      "name": "Festival",
+      "isUserDefined": true,
+      "rank": "3",
+      "managementCompanyId": "888"
+    },
+    {
+      "name": "Holiday",
+      "isUserDefined": true,
+      "rank": "4",
+      "managementCompanyId": "888"
+    },
+    {
+      "name": "Weather",
+      "isUserDefined": true,
+      "rank": "5",
+      "managementCompanyId": "888"
+    },
+    {
+      "name": "Other",
+      "isUserDefined": true,
+      "rank": "6",
+      "managementCompanyId": "888"
+    }
+  ],
+  "impactEvents": [
+    {
+      "name": "Chistmas",
+      "revImpact": "Rooms Only",
+      "type": "Sports",
+      "frequency": "REPEATING",
+      "interval": "Custom",
+      "duration": 7,
+      "managementCompanyId": 888,
+      "eventInstances": [
+        {
+          "startDate": "2020-12-25T00:00:00.000+0000",
+          "endDate": "2020-12-31T00:00:00.000+0000"
+        }
+      ],
+      "isMappedWithManagementCompany": true
+    },
+    {
+      "name": "Christmas",
+      "revImpact": "All Revenue",
+      "type": "Holiday",
+      "frequency": "REPEATING",
+      "interval": "Annual",
+      "duration": 2,
+      "managementCompanyId": 888,
+      "propertyId": 692,
+      "eventInstances": [
+        {
+          "startDate": "2020-12-24T00:00:00.000+0000",
+          "endDate": "2020-12-25T00:00:00.000+0000"
+        },
+        {
+          "startDate": "2019-12-24T00:00:00.000+0000",
+          "endDate": "2019-12-25T00:00:00.000+0000"
+        },
+        {
+          "startDate": "2018-12-24T00:00:00.000+0000",
+          "endDate": "2018-12-25T00:00:00.000+0000"
+        }
+      ],
+      "isMappedWithManagementCompany": false
+    },
+    {
+      "name": "Labor day",
+      "revImpact": "All Revenue",
+      "type": "Holiday",
+      "frequency": "REPEATING",
+      "interval": "Annual",
+      "duration": 1,
+      "managementCompanyId": 888,
+      "propertyId": 692,
+      "eventInstances": [
+        {
+          "startDate": "2020-05-01T00:00:00.000+0000",
+          "endDate": "2020-05-01T00:00:00.000+0000"
+        }
+      ],
+      "isMappedWithManagementCompany": false
+    }
+  ],
+  "fnbManagementCompanyConfig": [
+    {
+      "_id": "5f296f111f61bd1658b7b2da",
+      "managementCompanyId": 888,
+      "category": "Category",
+      "viewOrder": 0,
+      "subcategories": [
+        {
+          "name": "Sub Category",
+          "viewOrder": 0,
+          "departments": [
+          ],
+          "impactEvents": [
+            {
+              "_id": "5f298e0e1f61bd1658b7b366",
+              "name": "Chistmas",
+              "revImpact": "Rooms Only",
+              "type": "Sports",
+              "frequency": "REPEATING",
+              "interval": "Custom",
+              "duration": 7,
+              "managementCompanyId": 888,
+              "eventInstances": [
+                {
+                  "startDate":"2020-12-25T00:00:00.000+0000",
+                  "endDate":"2020-12-31T00:00:00.000+0000"
+                }
+              ],
+              "isMappedWithManagementCompany": true
+            }
+          ],
+          "fnBManagementCompanyConfigs": [
+            {
+              "_id": "5f2afe7b1f61bd0f10912c37",
+              "managementCompanyId": 888,
+              "category": "Test",
+              "viewOrder": 0,
+              "subcategories": [
+                {
+                  "name": "Test Sub Cat",
+                  "viewOrder": 0,
+                  "departments": [
+                  ]
+                }
+              ]
+            }
+          ],
+          "otherIncomes": [
+            {
+              "_id": "5f29a8481f61bd1658b7v3b3",
+              "managementCompanyId": 888,
+              "category": "Test",
+              "categoryId": "2a2852b6-9ab9-4129-9d81-b6cfac08aec7",
+              "categoryViewOrder": 0,
+              "subCategoryId": "64ec29e5-78e3-4015-b2b8-866caddf8bc6",
+              "subCategoryViewOrder": 0,
+              "createDate": "2020-08-04T18:26:16.745+0000",
+              "lastModifiedDate": "2020-08-04T18:26:16.745+0000"
+            }
+          ],
+          "weekConfigs": [
+            {
+              "weekConfigurationId": "5bd888316348f024a8ef6dh5",
+              "propertyId": 692,
+              "managementCompanyId": 888,
+              "weekDays": [
+                0,
+                1,
+                2,
+                3,
+                5
+              ],
+              "weekEnds": [
+                4,
+                6
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "otherIncomes": [
+    {
+      "_id": "5f29a8481f61bd1658b7v3b3",
+      "managementCompanyId": 888,
+      "category": "Test",
+      "categoryId": "2a2852b6-9ab9-4129-9d81-b6cfac08aec7",
+      "categoryViewOrder": 0,
+      "subCategoryId": "64ec29e5-78e3-4015-b2b8-866caddf8bc6",
+      "subCategoryViewOrder": 0,
+      "createDate": "2020-08-04T18:26:16.745+0000",
+      "lastModifiedDate": "2020-08-04T18:26:16.745+0000"
+    }
+  ],
+  "weekConfigs": [
+    {
+      "weekConfigurationId": "5bd888316348f024a8ef6dh5",
+      "propertyId": 692,
+      "managementCompanyId": 888,
+      "weekDays": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "weekEnds": [
+        5,
+        6
+      ]
+    }
+  ],
+  "marketSegments": [
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "TYPE"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "SUBCATEGORY",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "SUBCATEGORY",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Discount",
+      "subcategoryRank": "2"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "SUBCATEGORY",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Qualified",
+      "subcategoryRank": "3"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "CATEGORY",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "CATEGORY",
+      "categoryName": "GROUP",
+      "categoryRank": "2"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "SUBCATEGORY",
+      "categoryName": "OTHER",
+      "categoryRank": "3",
+      "subCategoryName": "Other Revenue",
+      "subcategoryRank": "1"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "SUBCATEGORY",
+      "categoryName": "OTHER",
+      "categoryRank": "3",
+      "subCategoryName": "COMP/HOUSE USE",
+      "subcategoryRank": "2"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "CATEGORY",
+      "categoryName": "OTHER",
+      "categoryRank": "3"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "LB",
+      "segmentDescription": "LOEWS BEST RATE",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "SEGMENT_WEIGHTING",
+      "showCheck": true,
+      "segmentRank": "1"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "AC",
+      "segmentDescription": "RES AIR CREW",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "RES_AIR_CREW",
+      "showCheck": true,
+      "segmentRank": "2"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "OC",
+      "segmentDescription": "OTA - RETAIL COMMISSION",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "SEGMENT_PICKUP",
+      "showCheck": true,
+      "segmentRank": "3"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "OM",
+      "segmentDescription": "OTA - RETAIL MERCHANT",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "SEGMENT_PICKUP",
+      "showCheck": false,
+      "combineInto": "5ef086721f61bd1124f59375",
+      "segmentRank": "4"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Discount",
+      "subcategoryRank": "2",
+      "companySegmentCode": "PD",
+      "segmentDescription": "PROPERTY DISCOUNT",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "TIME_SERIES",
+      "showCheck": true,
+      "segmentRank": "5"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Discount",
+      "subcategoryRank": "2",
+      "companySegmentCode": "TA",
+      "segmentDescription": "TRAVEL AGENT DISCOUNT",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "SEGMENT_WEIGHTING",
+      "showCheck": true,
+      "segmentRank": "6"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Qualified",
+      "subcategoryRank": "3",
+      "companySegmentCode": "MG",
+      "segmentDescription": "MANAGEMENT APPROVED",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "SEGMENT_WEIGHTING",
+      "showCheck": true,
+      "segmentRank": "7"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "GROUP",
+      "categoryRank": "2",
+      "companySegmentCode": "GC",
+      "segmentDescription": "GROUP CORPORATE",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "MATERIALIZATION",
+      "showCheck": true,
+      "segmentRank": "8"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "GROUP",
+      "categoryRank": "2",
+      "companySegmentCode": "GG",
+      "segmentDescription": "GROUP GOVERNMENT",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "MATERIALIZATION",
+      "showCheck": true,
+      "segmentRank": "9"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "GROUP",
+      "categoryRank": "2",
+      "companySegmentCode": "GA",
+      "segmentDescription": "GROUP ASSOCIATION",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "MATERIALIZATION",
+      "showCheck": false,
+      "combineInto": "5ef086721f61bd1144f5931a",
+      "segmentRank": "10"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "OTHER",
+      "categoryRank": "3",
+      "subCategoryName": "Other Revenue",
+      "subcategoryRank": "1",
+      "companySegmentCode": "ORR",
+      "segmentDescription": "OTHER ROOMS REVENUE",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "REVENUE_ONLY",
+      "showCheck": true,
+      "segmentRank": "11"
+    },
+    {
+      "managementCompanyId": "888",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "OTHER",
+      "categoryRank": "3",
+      "subCategoryName": "COMP/HOUSE USE",
+      "subcategoryRank": "2",
+      "companySegmentCode": "HU",
+      "segmentDescription": "HOUSE USE",
+      "erpCodeUnit": [
+        ""
+      ],
+      "erpCodeRev": [
+        ""
+      ],
+      "forecastMethod": "ROOMS_ONLY",
+      "showCheck": true,
+      "segmentRank": "12"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "LB",
+      "propertySegmentCode": "LBR",
+      "segmentDescription": "LOEWS BEST RATE",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "SEGMENT_WEIGHTING",
+      "showCheck": true,
+      "segmentRank": "1",
+      "propertySegmentRank": "1"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "AC",
+      "propertySegmentCode": "RAC",
+      "segmentDescription": "Res Air Crew",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "RES_AIR_CREW",
+      "showCheck": true,
+      "segmentRank": "2",
+      "propertySegmentRank": "2"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "OC",
+      "propertySegmentCode": "OC",
+      "segmentDescription": "OTA - RETAIL COMMISSION",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "SEGMENT_PICKUP",
+      "showCheck": true,
+      "segmentRank": "3",
+      "propertySegmentRank": "3"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Retail",
+      "subcategoryRank": "1",
+      "companySegmentCode": "OM",
+      "propertySegmentCode": "OM",
+      "segmentDescription": "OTA - RETAIL MERCHANT",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "SEGMENT_PICKUP",
+      "showCheck": false,
+      "combineInto": "5ef08fd81f61bd1124y59321",
+      "segmentRank": "4",
+      "propertySegmentRank": "4"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Discount",
+      "subcategoryRank": "2",
+      "companySegmentCode": "PD",
+      "propertySegmentCode": "PD",
+      "segmentDescription": "PROPERTY DISCOUNT",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "TIME_SERIES",
+      "showCheck": true,
+      "segmentRank": "5",
+      "propertySegmentRank": "5"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Discount",
+      "subcategoryRank": "2",
+      "companySegmentCode": "TA",
+      "propertySegmentCode": "TA",
+      "segmentDescription": "TRAVEL AGENT DISCOUNT",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "SEGMENT_WEIGHTING",
+      "showCheck": true,
+      "segmentRank": "6",
+      "propertySegmentRank": "6",
+      "mappedToAccIntelRateAnalytics": true
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": "1",
+      "subCategoryName": "Qualified",
+      "subcategoryRank": "3",
+      "companySegmentCode": "MG",
+      "propertySegmentCode": "MG",
+      "segmentDescription": "MANAGEMENT APPROVED",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "SEGMENT_WEIGHTING",
+      "showCheck": true,
+      "segmentRank": "7",
+      "propertySegmentRank": "7"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "GROUP",
+      "categoryRank": "2",
+      "companySegmentCode": "GC",
+      "propertySegmentCode": "GC",
+      "segmentDescription": "GROUP CORPORATE",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "MATERIALIZATION",
+      "showCheck": true,
+      "segmentRank": "8",
+      "propertySegmentRank": "8"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "GROUP",
+      "categoryRank": "2",
+      "companySegmentCode": "GG",
+      "propertySegmentCode": "GG",
+      "segmentDescription": "GROUP GOVERNMENT",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "MATERIALIZATION",
+      "showCheck": true,
+      "segmentRank": "9",
+      "propertySegmentRank": "9"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "GROUP",
+      "categoryRank": "2",
+      "companySegmentCode": "GA",
+      "propertySegmentCode": "GA",
+      "segmentDescription": "GROUP ASSOCIATION",
+      "erpCodeUnit": [
+      ],
+      "erpCodeRev": [
+      ],
+      "forecastMethod": "MATERIALIZATION",
+      "showCheck": false,
+      "combineInto": "5ef08fd81f61bd1124o59326",
+      "segmentRank": "10",
+      "propertySegmentRank": "10"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "OTHER",
+      "categoryRank": "3",
+      "subCategoryName": "Other Revenue",
+      "subcategoryRank": "1",
+      "companySegmentCode": "ORR",
+      "propertySegmentCode": "ORR",
+      "segmentDescription": "OTHER ROOMS REVENUE",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "REVENUE_ONLY",
+      "showCheck": true,
+      "segmentRank": "11",
+      "propertySegmentRank": "11"
+    },
+    {
+      "managementCompanyId": "888",
+      "propertyId": "692",
+      "typeId": "1",
+      "typeName": "Hotel",
+      "virtualType": "1",
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "OTHER",
+      "categoryRank": "3",
+      "subCategoryName": "COMP/HOUSE USE",
+      "subcategoryRank": "2",
+      "companySegmentCode": "HU",
+      "propertySegmentCode": "HU",
+      "segmentDescription": "HOUSE USE",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "ROOMS_ONLY",
+      "showCheck": true,
+      "segmentRank": "12",
+      "propertySegmentRank": "12"
+    },
+    {
+      "managementCompanyId": 1,
+      "propertyId": 2,
+      "typeId": 1,
+      "typeName": "Hotel",
+      "virtualType": 1,
+      "virtualTypeName": "Hotel",
+      "nameSpace": "MARKETSEGMENT",
+      "categoryName": "TRANSIENT",
+      "categoryRank": 1,
+      "subCategoryName": "Retail",
+      "subcategoryRank": 1,
+      "companySegmentCode": "LB",
+      "propertySegmentCode": "Delete",
+      "segmentDescription": "To be deleted by Selenium",
+      "erpCodeUnit": [],
+      "erpCodeRev": [],
+      "forecastMethod": "RES_AIR_CREW",
+      "showCheck": true,
+      "segmentRank": 1,
+      "propertySegmentRank": 2
+    }
+  ],
+  "properties": [
+    {
+      "id": "691",
+      "managementCompanyId": "888",
+      "uniquePropertyName": "marriot coromandel",
+      "propertyName": "marriot Coromandel",
+      "licenceContactInitial": "mr",
+      "licenceContactFirstName": "venky",
+      "licenceContactLastName": "raa",
+      "addressLine1": "Nungambakkam High Road,",
+      "country": "India",
+      "diallingPrefix": "+91",
+      "city": "Chennai",
+      "postalCode": "600 034",
+      "areaCode": "9989",
+      "phoneNumber": "9989",
+      "chimpsId": "1",
+      "contactTitle": "Director",
+      "contactEmail": "venky@dummy.com",
+      "addressLine2": "Nungambakkam",
+      "state": "Tamil Nadu",
+      "mobileNumber": "9989",
+      "activationStartDate": "2020-06-22T00:00:00.000+0000",
+      "activationEndDate": "2020-06-22T00:00:00.000+0000",
+      "selectedTypeOfBussiness": "1",
+      "selectedSubTypeOfBussiness": "1",
+      "timezone": "Asia/Calcutta",
+      "admins": [
+        "marriot.coromandel.property.admin@dummy.com"
+      ],
+      "measurementName": "Metric",
+      "fiscalCurrency": "INR",
+      "timeFormat": "24 Hours Clock",
+      "dateFormat": "DD/MM/YYYY",
+      "systemLanguage": "1",
+      "selectedPmsList": "1",
+      "pmsId": "TAJC",
+      "selectedSnCList": "1",
+      "snCId": "TAJC",
+      "selectedRmsList": "2",
+      "rmsId": "TAJC",
+      "selectedFrsList": "1",
+      "frsId": "TAJC",
+      "snCCurrency": "INR",
+      "hotelCapacity": "350",
+      "frsStructure": "1",
+      "complex": "No",
+      "complexRegion": "",
+      "linkToComplex": "",
+      "propertyOperationSetups": {
+        "5eefaa2b1f61bd1224f4f3df": "96",
+        "5eefaa2b1f61bd1124f4f4e0": "100",
+        "geoId": "281"
+      }
+    },
+    {
+      "id": "692",
+      "managementCompanyId": "888",
+      "uniquePropertyName": "marriot london",
+      "propertyName": "Marriot London",
+      "licenceContactInitial": "mrs",
+      "licenceContactFirstName": "tony",
+      "licenceContactLastName": "Gellar",
+      "addressLine1": "Suites and Residencies,",
+      "country": "India",
+      "diallingPrefix": "+44",
+      "city": "London",
+      "postalCode": "SW1E 6AF",
+      "areaCode": "9949",
+      "phoneNumber": "9949",
+      "chimpsId": "1",
+      "contactTitle": "Director",
+      "contactEmail": "marriot.london@ideas.com",
+      "addressLine2": "51 Buckingham Gate,",
+      "state": "Westminster",
+      "mobileNumber": "99989",
+      "activationStartDate": "2020-06-23T00:00:00.000+0000",
+      "activationEndDate": "2020-06-23T00:00:00.000+0000",
+      "selectedTypeOfBussiness": "1",
+      "selectedSubTypeOfBussiness": "1",
+      "timezone": "Europe/London",
+      "admins": [
+        "marriot.admin1@ideas.com"
+      ],
+      "measurementName": "Metric",
+      "fiscalCurrency": "GBP",
+      "timeFormat": "24 Hours Clock",
+      "dateFormat": "DD/MM/YYYY",
+      "systemLanguage": "1",
+      "selectedPmsList": "1",
+      "pmsId": "MARL",
+      "selectedSnCList": "1",
+      "snCId": "MARL",
+      "selectedRmsList": "1",
+      "rmsId": "MARL",
+      "selectedFrsList": "1",
+      "frsId": "MARL",
+      "snCCurrency": "GBP",
+      "hotelCapacity": "400",
+      "frsStructure": "1",
+      "complex": "No",
+      "complexRegion": "",
+      "linkToComplex": "",
+      "propertyOperationSetups": {
+        "5eefaa2b1f61bd1224f4f3df": "97",
+        "5eefaa2b1f61bd1124f4f4e0": "100",
+        "geoId": 281
+      }
+    }
+      ],
+      "financialExportConfigs": [
+        {
+          "_id": "5f2a4c491f61cd1658a7c441",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "LBR",
+          "costCenterStatisticCode": "LBRS",
+          "glStatisticCode": "LBRS",
+          "costCenterRevenueCode": "LBRC",
+          "glRevenueCode": "LBRC"
+        },
+        {
+          "_id": "5f2a4c491f61bd4658a7c442",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "OC",
+          "costCenterStatisticCode": "OTARS",
+          "glStatisticCode": "OTARS",
+          "costCenterRevenueCode": "OTARC",
+          "glRevenueCode": "OTARC"
+        },
+        {
+          "_id": "5f2a4c491f61bc1658a7c443",
+          "propertyId": 191,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "PD",
+          "costCenterStatisticCode": "PDS",
+          "glStatisticCode": "PDS",
+          "costCenterRevenueCode": "PDR",
+          "glRevenueCode": "PDR"
+        },
+        {
+          "_id": "5f2a4c491c61bd1658a7c444",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "TA"
+        },
+        {
+          "_id": "5f2a4c491f61bb1658a7c445",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "MG"
+        },
+        {
+          "_id": "5f2a4c491f61bd1958a7c446",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "GC"
+        },
+        {
+          "_id": "5f2a4c491f61bb1658a7c447",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "GG"
+        },
+        {
+          "_id": "5f2a4c491f61bb1658a7c448",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "ORR"
+        },
+        {
+          "_id": "5f2a4c491c61bd1658a7c449",
+          "propertyId": 691,
+          "fieldType": "segment",
+          "isActive": true,
+          "mappingCode": "HU"
+        },
+        {
+          "_id": "5f2a4c491f61bd1638a7c44a",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "GROSS_AVAILABLE_ROOMS"
+        },
+        {
+          "_id": "5f2a4c491f61rd1658a7c44b",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "NET_AVAILABLE_ROOMS"
+        },
+        {
+          "_id": "5f2a4c491f66bd1658a7c44c",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "REVPAR"
+        },
+        {
+          "_id": "5f2a4c491f61bi1658a7c44d",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "OOO_ROOMS"
+        },
+        {
+          "_id": "5f2a4c491f61bd1358a7c44e",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "ARRIVALS"
+        },
+        {
+          "_id": "5f2a4c491f61bd1358a7c54f",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "DEPARTURES"
+        },
+        {
+          "_id": "5f2a4c491f62bd1658a7c450",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "FINANCIAL_OCCUPANCY"
+        },
+        {
+          "_id": "5f2a4c491f61vd1658a7c451",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "OCCUPANCY"
+        },
+        {
+          "_id": "5f2a4c491f61bd5658a7c452",
+          "propertyId": 691,
+          "fieldType": "statistic",
+          "isActive": false,
+          "mappingCode": "PAID_OCCUPANCY"
+        }
+      ],
+      "scStatusMappings": [
+        {
+          "_id": "5beab09f6348e03330eb04b6",
+          "propertyId": 691,
+          "status": "Definite",
+          "scCodeList": [
+            {
+              "codeName": "ACT",
+              "codeDescription": "Actual",
+              "includeInForecast": true
+            },
+            {
+              "codeName": "DEF",
+              "codeDescription": "Definite",
+              "includeInForecast": true
+            },
+            {
+              "codeName": "DEFINITE",
+              "codeDescription": "Definite 1",
+              "includeInForecast": true
+            }
+          ],
+          "displayInForecast": true
+        },
+        {
+          "_id": "5beab09f6348e83330eb04b7",
+          "propertyId": 691,
+          "status": "Tentative",
+          "scCodeList": [
+            {
+              "codeName": "TEN",
+              "codeDescription": "Tentative",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "TENTATIVE",
+              "codeDescription": "Tentative 1",
+              "includeInForecast": true
+            },
+            {
+              "codeName": "TENT",
+              "codeDescription": "Tentative 2",
+              "includeInForecast": true
+            }
+          ],
+          "displayInForecast": true
+        },
+        {
+          "_id": "5beab09f6348e43330eb04b8",
+          "propertyId": 691,
+          "status": "Prospect",
+          "scCodeList": [
+            {
+              "codeName": "PROS",
+              "codeDescription": "Prospect",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "PROSPECT",
+              "codeDescription": "Prospect 1",
+              "includeInForecast": false
+            }
+          ],
+          "displayInForecast": false
+        },
+        {
+          "_id": "5beab09f6348e83330eb04b9",
+          "propertyId": 691,
+          "status": "Cancelled",
+          "scCodeList": [
+            {
+              "codeName": "LOS",
+              "codeDescription": "Lost",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "LOST",
+              "codeDescription": "Lost 1",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "CXL",
+              "codeDescription": "Cancelled",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "CAN",
+              "codeDescription": "Cancelled 1",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "BOOKINGCANCELLED",
+              "codeDescription": "Cancelled 2",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "BLOCKCANCELLED",
+              "codeDescription": "Cancelled 3",
+              "includeInForecast": false
+            }
+          ],
+          "displayInForecast": false
+        },
+        {
+          "_id": "5beab09f6348e93330eb04ba",
+          "propertyId": 691,
+          "status": "Turned_Down",
+          "scCodeList": [
+            {
+              "codeName": "TURN",
+              "codeDescription": "Turned Down",
+              "includeInForecast": false
+            },
+            {
+              "codeName": "TURNEDDOWN",
+              "codeDescription": "Turned Down 1",
+              "includeInForecast": false
+            }
+          ],
+          "displayInForecast": false
+        },
+        {
+          "_id": "5d5a45d06348e03734ebbf07",
+          "propertyId": 691,
+          "status": "Lead",
+          "scCodeList": [
+          ],
+          "displayInForecast": false
+        }
+      ],
+      "userAccounts": [
+        {
+          "_id": "5ef1f3321c61bv1124f5933d",
+          "uniqueEmail": "corporate.admin692@ideas.com",
+          "email": "corporate.admin692@ideas.com",
+          "firstName": "Corporate",
+          "lastName": "Admin",
+          "password": "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+          "role": "MANAGEMENTCOMPANYADMIN",
+          "rolesInfo": [
+            {
+              "roleId": "5f0d3ddcf000f8111cbfc3cb",
+              "managementCompanyId": 888,
+              "isPrimary": true,
+              "status": true
+            }
+          ],
+          "passwordResetToken": "627dc1b0-6a37-430f-99e6-9703d68d543a",
+          "lastSetPasswordLink":"2020-06-23T12:18:58.084+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            692
+          ],
+          "title": "Corporate Admin",
+          "displayName": "Corporate Admin",
+          "status": true,
+          "userAccess": [
+            "Admin Access"
+          ],
+          "isPrimaryUser": true
+        },
+        {
+          "_id": "5ef1f3321c61bv1124f5933d",
+          "uniqueEmail": "corporate2.admin692@ideas.com",
+          "email": "corporate2.admin692@ideas.com",
+          "firstName": "Corporate2",
+          "lastName": "Admin2",
+          "password": "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+          "role": "MANAGEMENTCOMPANYADMIN",
+          "rolesInfo": [
+            {
+              "roleId": "5f0d3ddcf000f8111cbfc3cb",
+              "managementCompanyId": 888,
+              "isPrimary": true,
+              "status": true
+            }
+          ],
+          "passwordResetToken": "627dc1b0-6a37-430f-99e6-9703d68d543a",
+          "lastSetPasswordLink":"2020-06-23T12:18:58.084+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            692
+          ],
+          "title": "Corporate Admin",
+          "displayName": "Corporate Admin",
+          "status": true,
+          "userAccess": [
+            "Admin Access"
+          ],
+          "isPrimaryUser": true
+        },
+        {
+          "_id": "5ef1f3631f61ed1124f5933f",
+          "uniqueEmail": "above.property692@ideas.com",
+          "email": "above.property692@ideas.com",
+          "firstName": "Above",
+          "lastName": "Property",
+          "password": "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+          "role": "ABOVEPROPERTYUSER",
+          "passwordResetToken": "f0c01e07-38a9-4b00-a47f-f87eedbdbad0",
+          "lastSetPasswordLink": "2020-06-23T12:19:47.133+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            692
+          ],
+          "title": "Above Property",
+          "displayName": "Above Property",
+          "status": true,
+          "userAccess": [
+            "Edit Access"
+          ],
+          "biAttr": {
+            "5eefaa2b1f61bd1224f4f3df": [
+              "96",
+              "97",
+              "98"
+            ],
+            "5eefaa2b1f61bd1124f4f4e0": [
+              "99",
+              "100"
+            ],
+            "geoAreas": [
+              "0/268/279/280/281",
+              "0/268/275/276/277",
+              "0/268/269/270/271",
+              "0/268/269/272/273",
+              "0/268/269/272/274"
+            ]
+          }
+        },
+        {
+          "_id": "5ef1f4021f61bc1124f59341",
+          "uniqueEmail": "property.user692@ideas.com",
+          "email": "property.user692@ideas.com",
+          "firstName": "Property",
+          "lastName": "User",
+          "password": "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+          "role": "PROPERTYUSER",
+          "rolesInfo": [
+            {
+              "roleId": "5fc480a9c18e8c368b36b5a4",
+              "managementCompanyId": 888,
+              "propertyId": 692,
+              "status": true
+            }
+          ],
+          "passwordResetToken": "d31a6542-d3a6-4430-8c07-8e8db1a10801",
+          "lastSetPasswordLink":"2020-06-23T12:22:26.573+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            "692"
+          ],
+          "title": "Property User",
+          "displayName": "Property User",
+          "status": true,
+          "userAccess": [
+            "Intel",
+            "Planning",
+            "Management"
+          ],
+          "moduleLevelAccessInfo": [
+            {
+              "intel": [
+                {
+                  "name": "Rooms",
+                  "subModules": [
+                    {
+                      "module": "PACE_PICKUP",
+                      "action": "READ",
+                      "name": "Pace & Pickup",
+                      "isEditable": false
+                    },
+                    {
+                      "module": "GROUP_ANALYTICS",
+                      "action": "READ",
+                      "name": "Group Analytics",
+                      "isEditable": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "planning": [
+                {
+                  "name": "Revenue",
+                  "subModules": [
+                    {
+                      "module": "ROOMS",
+                      "action": "READ",
+                      "name": "Rooms",
+                      "isEditable": false
+                    },
+                    {
+                      "module": "FOOD_BEVERAGE",
+                      "action": "READ",
+                      "name": "Food & Beverage",
+                      "isEditable": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Forecasting",
+                  "subModules": [
+                    {
+                      "module": "ROOMS_FORECASTING",
+                      "action": "READ",
+                      "name": "Rooms Forecasting",
+                      "isEditable": false
+                    },
+                    {
+                      "module": "RESIDENT_GUEST_FORECASTING",
+                      "action": "READ",
+                      "name": "Resident Guest Forecasting",
+                      "isEditable": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "management": [
+                {
+                  "name": "Summaries",
+                  "subModules": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "5ef1f4021f61bc1124f59341",
+          "uniqueEmail": "property2.user692@ideas.com",
+          "email": "property2.user692@ideas.com",
+          "firstName": "Property2",
+          "lastName": "User2",
+          "password": "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+          "role": "PROPERTYUSER",
+          "rolesInfo": [
+            {
+              "roleId": "5fc480a9c18e8c368b36b5a4",
+              "managementCompanyId": 888,
+              "propertyId": 692,
+              "status": true
+            }
+          ],
+          "passwordResetToken": "d31a6542-d3a6-4430-8c07-8e8db1a10801",
+          "lastSetPasswordLink":"2020-06-23T12:22:26.573+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            "692"
+          ],
+          "title": "Property User",
+          "displayName": "Property User",
+          "status": true,
+          "userAccess": [
+            "Intel",
+            "Planning",
+            "Management"
+          ],
+          "moduleLevelAccessInfo": [
+            {
+              "intel": [
+                {
+                  "name": "Rooms",
+                  "subModules": [
+                    {
+                      "module": "PACE_PICKUP",
+                      "action": "READ",
+                      "name": "Pace & Pickup",
+                      "isEditable": false
+                    },
+                    {
+                      "module": "GROUP_ANALYTICS",
+                      "action": "READ",
+                      "name": "Group Analytics",
+                      "isEditable": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "planning": [
+                {
+                  "name": "Revenue",
+                  "subModules": [
+                    {
+                      "module": "ROOMS",
+                      "action": "READ",
+                      "name": "Rooms",
+                      "isEditable": false
+                    },
+                    {
+                      "module": "FOOD_BEVERAGE",
+                      "action": "READ",
+                      "name": "Food & Beverage",
+                      "isEditable": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Forecasting",
+                  "subModules": [
+                    {
+                      "module": "ROOMS_FORECASTING",
+                      "action": "READ",
+                      "name": "Rooms Forecasting",
+                      "isEditable": false
+                    },
+                    {
+                      "module": "RESIDENT_GUEST_FORECASTING",
+                      "action": "READ",
+                      "name": "Resident Guest Forecasting",
+                      "isEditable": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "management": [
+                {
+                  "name": "Summaries",
+                  "subModules": [
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_id": "5ef1f4e01f69bd1124f5934e",
+          "uniqueEmail": "property.admin692@ideas.com",
+          "email": "property.admin692@ideas.com",
+          "firstName": "Property",
+          "lastName": "Admin",
+          "password": "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+          "role": "PROPERTYADMIN",
+          "rolesInfo": [
+            {
+              "roleId": "5f28f346f000f80940bde350",
+              "managementCompanyId": 888,
+              "propertyId": 692,
+              "isPrimary": false,
+              "status": true
+            }
+          ],
+          "passwordResetToken": "df7ad82e-3f31-4dc3-ad35-0ee129ce3d26",
+          "lastSetPasswordLink":"2020-06-23T12:26:08.252+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            "691",
+            "692"
+          ],
+          "title": "Property Admin",
+          "displayName": "Property Admin",
+          "status": true,
+          "userAccess": [
+            "Property Admin"
+          ],
+          "perPropertyMetadata": {
+            "691": {
+              "isPrimaryUser": false,
+              "status": true
+            },
+            "692": {
+              "isPrimaryUser": false,
+              "status": true
+            }
+          }
+        },
+        {
+          "_id": "5ef8bfc01f61bd1e54807a40",
+          "uniqueEmail": "taj.admin692@ideas.com",
+          "email": "taj.admin692@ideas.com",
+          "firstName": "Tom",
+          "lastName": "Lerner",
+          "role": "PROPERTYADMIN",
+          "passwordResetToken": "da9e57c3-98fd-4450-866e-d1f4e44859a7",
+          "lastSetPasswordLink":"2020-06-28T16:05:20.856+0000",
+          "managementCompanyId": "888",
+          "propertyIds": [
+            "692"
+          ],
+          "title": "Director",
+          "displayName": "Tom",
+          "status": true,
+          "userAccess": [
+            "Property Admin"
+          ],
+          "isPrimaryUser": true,
+          "perPropertyMetadata": {
+            "692": {
+              "isPrimaryUser": true,
+              "status": true
+            }
+          }
+        }
+      ],
+      "companyProfiles": [
+        {
+          "companyProfileID": "1251130",
+          "propertyId": 692,
+          "companyProfileName": "Boston Consulting Group",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "PENDING"
+        },
+        {
+          "companyProfileID": "15401",
+          "propertyId": 692,
+          "companyProfileName": "Danish Government",
+          "contract": false,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "masterCompanyProfileID": "4181666",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "PENDING"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "companyProfileName": "Airbus Group",
+          "status": "PENDING",
+          "contract": false,
+          "createdDate":  "2020-02-08T00:00:00.000+0000",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED"
+        },
+        {
+          "companyProfileID": "13144663",
+          "propertyId": 692,
+          "companyProfileName": "CHAP BB",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "masterCompanyProfileID": "13312967",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "PENDING"
+        },
+        {
+          "companyProfileID": "141928",
+          "propertyId": 692,
+          "companyProfileName": "Fortum Corporation",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "PENDING"
+        },
+        {
+          "companyProfileID": "13312967",
+          "propertyId": 692,
+          "companyProfileName": "CHAP BB test",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "PENDING"
+        },
+        {
+          "companyProfileID": "33919",
+          "propertyId": 692,
+          "companyProfileName": "Eli Lilly & Company",
+          "contract": true,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "ACCEPTED"
+        },
+        {
+          "companyProfileID": "711174",
+          "propertyId": 692,
+          "companyProfileName": "Eurocontrol",
+          "contract": true,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "masterCompanyProfileID": "33919",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "ACCEPTED"
+        },
+        {
+          "companyProfileID": "13728774",
+          "propertyId": 692,
+          "companyProfileName": "Inditex",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "ACCEPTED"
+        },
+        {
+          "companyProfileID": "869954",
+          "propertyId": 692,
+          "companyProfileName": "Microsoft Corporation",
+          "contract": true,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "ACCEPTED"
+        },
+        {
+          "companyProfileID": "869957",
+          "propertyId": 692,
+          "companyProfileName": "FireFly",
+          "contract": true,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "masterCompanyProfileID": "869954",
+          "status": "ACCEPTED"
+        },
+        {
+          "companyProfileID": "13776885",
+          "propertyId": 692,
+          "companyProfileName": "Kuoni Group",
+          "contract": false,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate": "2020-02-08T00:00:00.000+0000",
+          "status": "EXCLUDED"
+        },
+        {
+          "companyProfileID": "1341669",
+          "propertyId": 692,
+          "companyProfileName": "Lego Systems Inc",
+          "contract": false,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate": "2020-02-08T00:00:00.000+0000",
+          "masterCompanyProfileID": "13776885",
+          "status": "EXCLUDED"
+        },
+        {
+          "companyProfileID": "13668589",
+          "propertyId": 692,
+          "companyProfileName": "National Oilwell Varco",
+          "contract": true,
+          "createdDate":  "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate": "2020-02-08T00:00:00.000+0000",
+          "status": "ACCEPTED"
+        },
+        {
+          "companyProfileID": "5000000",
+          "propertyId": 692,
+          "companyProfileName": "New accenture",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate": "2020-02-08T00:00:00.000+0000",
+          "status": "EXCLUDED"
+        },
+        {
+          "companyProfileID": "10121983",
+          "propertyId": 692,
+          "companyProfileName": "Norges Fotballforbund",
+          "contract": false,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate": "2020-02-08T00:00:00.000+0000",
+          "status": "EXCLUDED"
+        },
+        {
+          "companyProfileID": "36551",
+          "propertyId": 692,
+          "companyProfileName": "PricewaterhouseCoopers",
+          "contract": false,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "status": "PENDING"
+        },
+        {
+          "companyProfileID": "34668",
+          "propertyId": 692,
+          "companyProfileName": "Norwegian Government",
+          "contract": false,
+          "createdDate": "2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate": "2020-02-08T00:00:00.000+0000",
+          "status": "EXCLUDED"
+        },
+        {
+          "companyProfileID": "407901",
+          "propertyId": 692,
+          "companyProfileName": "Norwegian Research",
+          "contract": false,
+          "createdDate":"2020-02-08T00:00:00.000+0000",
+          "dataType": "SYSTEM_DEFINED",
+          "lastModifiedDate":"2020-02-08T00:00:00.000+0000",
+          "masterCompanyProfileID": "34668",
+          "status": "EXCLUDED"
+        }
+      ],
+      "companyProfileReservations": [
+        {
+          "propertyId": 692,
+          "companyProfileID": "1251130",
+          "confirmationNumber": "89225",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "1251130",
+          "confirmationNumber": "89226",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89225",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89226",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89227",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89228",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89229",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89230",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89231",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89232",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89233",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "4181666",
+          "confirmationNumber": "89234",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89235",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89236",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89237",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89238",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89239",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89240",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89241",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "15401",
+          "confirmationNumber": "89242",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89255",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89256",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89257",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89258",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89259",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89250",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89251",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "DLX1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "141928",
+          "confirmationNumber": "89252",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89265",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89266",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89267",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89268",
+          "occupancyDate": "2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89269",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89270",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89271",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89272",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SUP2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89273",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "GRD1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13144663",
+          "confirmationNumber": "89274",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "GRD1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89275",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "GRD1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89276",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "GRD1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89277",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "GRD1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89278",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "GRD1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89279",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89280",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SPS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89281",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89282",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89283",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "33919",
+          "confirmationNumber": "89284",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89285",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SPS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89286",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SPS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89287",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89288",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89289",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "SPS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89290",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "SPS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89291",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89292",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89293",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "13728774",
+          "confirmationNumber": "89294",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89295",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89296",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89297",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89298",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89299",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89300",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89301",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89302",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89303",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869954",
+          "confirmationNumber": "89304",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "5000000",
+          "confirmationNumber": "89305",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS1"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "5000000",
+          "confirmationNumber": "89306",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "5000000",
+          "confirmationNumber": "89307",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "5000000",
+          "confirmationNumber": "89308",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "5000000",
+          "confirmationNumber": "89309",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "5000000",
+          "confirmationNumber": "89310",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89311",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89312",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89313",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89314",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89315",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89316",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89317",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89318",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89319",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "10121983",
+          "confirmationNumber": "89320",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89321",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89322",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89323",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89324",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89325",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89326",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89327",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89328",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89329",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "36551",
+          "confirmationNumber": "89330",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89331",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89332",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89333",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89334",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89335",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89336",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "Y",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89337",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 0,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89338",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89339",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "CHECKED IN",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "34668",
+          "confirmationNumber": "89340",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        },
+        {
+          "propertyId": 692,
+          "companyProfileID": "869957",
+          "confirmationNumber": "89341",
+          "occupancyDate":"2020-08-08T00:00:00.000+0000",
+          "reservationRoomCount": 1,
+          "reservationStatus": "RESERVED",
+          "isPseudoRoom": "N",
+          "stayedRoomType": "JS2"
+        }
+      ],
+      "referenceDataPoints": [{
+        "occupancyDate" : "2020-08-01T00:00:00.000+0000",
+        "propertyId" : 692,
+        "stream" : "ROOMS",
+        "source" : "ACTUAL",
+        "segment" : "1A",
+        "rn" : 3.0,
+        "revenue" : 1058.0
+      }],
+      "inventoryConfigs": [{
+        "managementCompanyId" : 888,
+        "roomCategory" : "Standard",
+        "roomCategoryId" : "74eac2df-60f0-44be-82ba-de745f51c11b",
+        "roomCategoryViewOrder" : 0,
+        "roomClass" : "Superior",
+        "roomClassId" : "4fc8ec51-6542-470b-ab45-882b901de457",
+        "roomClassViewOrder" : 0,
+        "categoryType": "Standard",
+        "createDate" : "2020-12-03T09:20:35.191+0000",
+        "lastModifiedDate" : "2020-12-03T09:20:35.191+0000"
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Upgrade",
+          "roomCategoryId" : "546c4075-253f-43ae-8350-576a0a65099d",
+          "roomCategoryViewOrder" : 1,
+          "roomClass" : "Grand Deluxe",
+          "roomClassId" : "d335524e-b8e4-46b5-b3e2-afef9a6086fa",
+          "roomClassViewOrder" : 0,
+          "categoryType": "Suite",
+          "createDate" : "2020-12-03T09:20:35.192+0000",
+          "lastModifiedDate" :"2020-12-03T09:20:35.192+0000"
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Upgrade",
+          "roomCategoryId" : "546c4075-253f-43ae-8350-576a0a65099d",
+          "roomCategoryViewOrder" : 1,
+          "roomClass" : "Deluxe",
+          "roomClassId" : "5284565d-24b2-42e3-b8a9-1eec321a6a18",
+          "roomClassViewOrder" : 1,
+          "categoryType": "Suite",
+          "createDate" : "2020-12-03T09:20:35.192+0000",
+          "lastModifiedDate" : "2020-12-03T09:20:35.192+0000"
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Suite",
+          "roomCategoryId" : "2d0ebab4-4275-4e5d-a6e8-478e48099f13",
+          "roomCategoryViewOrder" : 2,
+          "roomClass" : "Special Suites",
+          "roomClassId" : "d50669a7-5bfd-45e2-beea-b1ac0db4c173",
+          "roomClassViewOrder" : 0,
+          "categoryType": "Standard",
+          "createDate" : "2020-12-03T09:20:35.192+0000",
+          "lastModifiedDate" : "2020-12-03T09:20:35.192+0000"
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Suite",
+          "roomCategoryId" : "2d0ebab4-4275-4e5d-a6e8-478e48099f13",
+          "roomCategoryViewOrder" : 2,
+          "roomClass" : "Junior Suite",
+          "roomClassId" : "1778fb7f-e452-4f40-b747-979a239ab2f6",
+          "roomClassViewOrder" : 1,
+          "categoryType": "Standard",
+          "createDate" : "2020-12-03T09:20:35.192+0000",
+          "lastModifiedDate" : "2020-12-03T09:20:35.192+0000"
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Standard",
+          "roomCategoryId" : "74eac2df-60f0-44be-82ba-de745f51c11b",
+          "roomCategoryViewOrder" : 0,
+          "roomClass" : "Superior",
+          "roomClassId" : "4fc8ec51-6542-470b-ab45-882b901de457",
+          "roomClassViewOrder" : 0,
+          "propertyId" : 692,
+          "pmsCode" : "DLX1",
+          "pmsCodeId" : "a61c2c2c-0556-4e74-9019-a83342340f31",
+          "pmsCodeViewOrder" : 1,
+          "roomTypeDescription" : "Deluxe Type 1",
+          "roomsCount" : 10,
+          "inventoryDateRange" : {
+            "startDate" : "2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Standard",
+            "createDate" : "2021-03-22T13:53:51.387+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.387+0000"
+        }},
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Standard",
+          "roomCategoryId" : "74eac2df-60f0-44be-82ba-de745f51c11b",
+          "roomCategoryViewOrder" : 0,
+          "roomClass" : "Superior",
+          "roomClassId" : "4fc8ec51-6542-470b-ab45-882b901de457",
+          "roomClassViewOrder" : 0,
+          "propertyId" : 692,
+          "pmsCode" : "SUP1",
+          "pmsCodeId" : "2aeb5ad7-93be-4afe-b2e6-4710483b0cdb",
+          "pmsCodeViewOrder" : 2,
+          "roomTypeDescription" : "Superior Room Type 1",
+          "roomsCount" : 10,
+          "inventoryDateRange" : {
+            "startDate": "2020-08-01T00:00:00.000+0000",
+            "endDate": "2020-08-31T00:00:00.000+0000",
+            "categoryType": "Standard",
+            "createDate": "2021-03-22T13:53:51.387+0000",
+            "lastModifiedDate": "2021-03-22T13:53:51.387+0000"
+          }},
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Standard",
+          "roomCategoryId" : "74eac2df-60f0-44be-82ba-de745f51c11b",
+          "roomCategoryViewOrder" : 0,
+          "roomClass" : "Superior",
+          "roomClassId" : "4fc8ec51-6542-470b-ab45-882b901de457",
+          "roomClassViewOrder" : 0,
+          "propertyId" : 692,
+          "pmsCode" : "SUP2",
+          "pmsCodeId" : "ece5601c-9158-4dd7-9ad3-ed44e2f8a844",
+          "pmsCodeViewOrder" : 3,
+          "roomTypeDescription" : "Superior Room Type 2",
+          "roomsCount" : 20,
+          "inventoryDateRange" : {
+            "startDate" : "2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Standard",
+            "createDate" : "2021-03-22T13:53:51.388+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.388+0000"}
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Upgrade",
+          "roomCategoryId" : "546c4075-253f-43ae-8350-576a0a65099d",
+          "roomCategoryViewOrder" : 1,
+          "roomClass" : "Grand Deluxe",
+          "roomClassId" : "d335524e-b8e4-46b5-b3e2-afef9a6086fa",
+          "roomClassViewOrder" : 0,
+          "propertyId" : 692,
+          "pmsCode" : "GRD1",
+          "pmsCodeId" : "4b6aac22-3937-4014-894c-1c1342233cd1",
+          "pmsCodeViewOrder" : 0,
+          "roomTypeDescription" : "Grand Type 1",
+          "roomsCount" : 10,
+          "inventoryDateRange" : {
+            "startDate" : "2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Suite",
+            "createDate" : "2021-03-22T13:53:51.388+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.388+0000"}
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Suite",
+          "roomCategoryId" : "2d0ebab4-4275-4e5d-a6e8-478e48099f13",
+          "roomCategoryViewOrder" : 2,
+          "roomClass" : "Special Suites",
+          "roomClassId" : "d50669a7-5bfd-45e2-beea-b1ac0db4c173",
+          "roomClassViewOrder" : 0,
+          "propertyId" : 692,
+          "pmsCode" : "SPS1",
+          "pmsCodeId" : "fced9480-6d4d-4ba5-b2f2-f85fd146aec8",
+          "pmsCodeViewOrder" : 0,
+          "roomTypeDescription" : "SPS Type 1",
+          "roomsCount" : 90,
+          "inventoryDateRange" : {
+            "startDate" :"2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Standard",
+            "createDate" : "2021-03-22T13:53:51.388+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.388+0000"}
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Suite",
+          "roomCategoryId" : "2d0ebab4-4275-4e5d-a6e8-478e48099f13",
+          "roomCategoryViewOrder" : 2,
+          "roomClass" : "Special Suites",
+          "roomClassId" : "d50669a7-5bfd-45e2-beea-b1ac0db4c173",
+          "roomClassViewOrder" : 0,
+          "propertyId" : 692,
+          "pmsCode" : "SPS2",
+          "pmsCodeId" : "d7ca1eff-1bf3-4c65-817f-3f9f1a4fbcba",
+          "pmsCodeViewOrder" : 1,
+          "roomTypeDescription" : "SPS Type 2",
+          "roomsCount" : 90,
+          "inventoryDateRange" : {
+            "startDate" : "2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Standard",
+            "createDate" : "2021-03-22T13:53:51.388+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.388+0000"}
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Suite",
+          "roomCategoryId" : "2d0ebab4-4275-4e5d-a6e8-478e48099f13",
+          "roomCategoryViewOrder" : 2,
+          "roomClass" : "Junior Suite",
+          "roomClassId" : "1778fb7f-e452-4f40-b747-979a239ab2f6",
+          "roomClassViewOrder" : 1,
+          "propertyId" : 692,
+          "pmsCode" : "JS1",
+          "pmsCodeId" : "7e985dbe-9829-4784-b3e8-b9b8ccfecc8f",
+          "pmsCodeViewOrder" : 0,
+          "roomTypeDescription" : "JS Type 1",
+          "roomsCount" : 80,
+          "inventoryDateRange" : {
+            "startDate" : "2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Standard",
+            "createDate" : "2021-03-22T13:53:51.389+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.389+0000"}
+        },
+        {
+          "managementCompanyId" : 888,
+          "roomCategory" : "Suite",
+          "roomCategoryId" : "2d0ebab4-4275-4e5d-a6e8-478e48099f13",
+          "roomCategoryViewOrder" : 2,
+          "roomClass" : "Junior Suite",
+          "roomClassId" : "1778fb7f-e452-4f40-b747-979a239ab2f6",
+          "roomClassViewOrder" : 1,
+          "propertyId" : 692,
+          "pmsCode" : "JS2",
+          "pmsCodeId" : "29f6cd0c-3b46-4e5c-8bfe-438765d7150a",
+          "pmsCodeViewOrder" : 1,
+          "roomTypeDescription" : "JS Type 2",
+          "roomsCount" : 80,
+          "inventoryDateRange" : {
+            "startDate" : "2020-08-01T00:00:00.000+0000",
+            "endDate" : "2020-08-31T00:00:00.000+0000",
+            "categoryType" : "Standard",
+            "createDate" : "2021-03-22T13:53:51.389+0000",
+            "lastModifiedDate" : "2021-03-22T13:53:51.389+0000"}
+        }
+      ],
+      "propertyFeatureConfig":[{
+        "clientCode": "MAR",
+        "propertyCode": "MARL",
+        "notificationsEnabled": true,
+        "notificationsInternal": true,
+        "notificationsEmail": "ffa5df51.SASOffice365.onmicrosoft.com@amer.teams.ms",
+        "g2HostUrl": "",
+        "defaultTimeZone": "",
+        "features": {
+          "accountIntelStepEnabled": true,
+          "financialDataExportJobEnabled": true,
+          "contractOverviewEnabled": true,
+          "inventoryConfigValidateStepEnabled": true
+        },
+        "betaFeatures": {
+          "isUserSessionEnabled": false,
+          "isScimEmailChangeEnabled": false,
+          "isOldRoomsChangeGoalAdjustmentEnabled": false,
+          "isFnbAutoAdjustEnabled": true,
+          "isActionRequestEnabled": false
+        },
+        "ssoConfig": {
+          "isSSOEnabled": false,
+          "cognitoClientId": "6lj6anbqdp2f647cmfr22gjv3f",
+          "cognitoClientSecret": "eoqom7hg7hvdupol5494i74grqnbmt5j52ohi7m3m7g2f7751s",
+          "cognitoPoolId": "us-east-2_PcmILVJuI",
+          "cognitoRegion": "us-east-2",
+          "cognitoCustomDomain": "stage-internal-users.auth.us-east-2.amazoncognito.com",
+          "cognitoRedirectUrl": "https://stage-revplan.ideas.com?appClientId=6lj6anbqdp2f647cmfr22gjv3f",
+          "cognitoIdentityProvider": "sas-azure-ad",
+          "autoUserMappingEnabled": true,
+          "logoutRedirectUrl": "https://stage-revplan.ideas.com"
+        }
+      },
+        {
+          "clientCode": "MAR",
+          "propertyCode": "TAJC",
+          "notificationsEnabled": true,
+          "notificationsInternal": true,
+          "notificationsEmail": "ffa5df51.SASOffice365.onmicrosoft.com@amer.teams.ms",
+          "g2HostUrl": "",
+          "defaultTimeZone": "",
+          "features": {
+            "accountIntelStepEnabled": true,
+            "financialDataExportJobEnabled": true,
+            "contractOverviewEnabled": true,
+            "inventoryConfigValidateStepEnabled": true,
+            "betaFeatures": {
+              "isUserSessionEnabled": false,
+              "isScimEmailChangeEnabled": false,
+              "isOldRoomsChangeGoalAdjustmentEnabled": false,
+              "isFnbAutoAdjustEnabled": true,
+              "isActionRequestEnabled": false,
+              "ssoConfig": {
+                "isSSOEnabled": false,
+                "cognitoClientId": "6lj6anbqdp2f647cmfr22gjv3f",
+                "cognitoClientSecret": "eoqom7hg7hvdupol5494i74grqnbmt5j52ohi7m3m7g2f7751s",
+                "cognitoPoolId": "us-east-2_PcmILVJuI",
+                "cognitoRegion": "us-east-2",
+                "cognitoCustomDomain": "stage-internal-users.auth.us-east-2.amazoncognito.com",
+                "cognitoRedirectUrl": "https://stage-revplan.ideas.com?appClientId=6lj6anbqdp2f647cmfr22gjv3f",
+                "cognitoIdentityProvider": "sas-azure-ad",
+                "autoUserMappingEnabled": true,
+                "logoutRedirectUrl": "https://stage-revplan.ideas.com"
+              }
+            }}}
+            ],
+            "roles": [{
+              "_id" : "604ac997bbecef3659ff8696",
+              "role" : "PropertyCustom",
+              "type" : "USER_DEFINED",
+              "propertyId": 692,
+              "privileges" : [
+                {
+                  "resource" : "PROPERTY_LIST",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_REGISTRATION",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_ADMIN_USER",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_USER",
+                  "action" : "READ"},
+                {
+                  "resource" : "ABOVE_PROPERTY_USER",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_ROOMS_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "MANAGEMENT_COMPANY_FNB_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_FNB_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_IMPACT_EVENTS_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_OTHER_INCOME_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_SUBMISSION",
+                  "action" : "READ"},
+                {
+                  "resource" : "IMPORT",
+                  "action" : "READ"},
+                {
+                  "resource" : "MANAGEMENT_COMPANY_GEO_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "MANAGEMENT_COMPANY_BI_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "REPORT_CRITERIA",
+                  "action" : "READ_WRITE"},
+                {
+                  "resource" : "MESSAGES",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_LANDING_MESSAGES",
+                  "action" : "READ"},
+                {
+                  "resource" : "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "PROPERTY_INVENTORY_SETUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "INTEL_ROOMS_PACE_AND_PICKUP",
+                  "action" : "READ"},
+                {
+                  "resource" : "INTEL_ROOMS_GROUP_ANALYTICS",
+                  "action" : "READ"},
+                {
+                  "resource" : "INTEL_ACCOUNTS_COMPANIES",
+                  "action" : "READ"},
+                {
+                  "resource" : "PLANNING_REVENUE_ROOMS",
+                  "action" : "READ"},
+                {
+                  "resource" : "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                  "action" : "READ"},
+                {
+                  "resource" : "PLANNING_REVENUE_OTHER_INCOME",
+                  "action" : "READ"},
+                {
+                  "resource" : "PLANNING_FORECASTING_ROOMS",
+                  "action" : "READ"},
+                {
+                  "resource" : "PLANNING_FORECASTING_RESIDENT_GUEST",
+                  "action" : "READ"},
+                {
+                  "resource" : "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                  "action" : "READ"
+                }
+              ]
+            },
+              {
+                "_id": "5f449a9473ec651d28a359f4",
+                "role": "AbovePropertyViewer",
+                "type": "SYSTEM_DEFINED",
+                "propertyId": 692,
+                "privileges": [
+                  {
+                    "resource": "PROPERTY_LIST",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "IMPORT",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_FNB_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_ADMIN_USER",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "ABOVE_PROPERTY_USER",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_ROOMS_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_SUBMISSION",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_REGISTRATION",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_USER",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PLANNING_REVENUE_ROOMS",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PLANNING_FORECASTING_ROOMS",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_OTHER_INCOME_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PLANNING_REVENUE_OTHER_INCOME",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "REPORT_CRITERIA",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "MESSAGES",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_LANDING_MESSAGES",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "INTEL_ACCOUNTS_COMPANIES",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_INVENTORY_SETUP",
+                    "action": "READ"
+                  }
+                ]
+              },
+              {
+                "_id" : "5f449a9473ec651d28a359f6",
+                "role" : "AbovePropertyEditor",
+                "type" : "SYSTEM_DEFINED",
+                "propertyId": 692,
+                "privileges" : [
+                  {
+                    "resource" : "PROPERTY_LIST",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "IMPORT",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_FNB_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ADMIN_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "ABOVE_PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ROOMS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_SUBMISSION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_REGISTRATION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_OTHER_INCOME_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_OTHER_INCOME",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "REPORT_CRITERIA",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_LANDING_MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ACCOUNTS_COMPANIES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  }
+                ]},
+              {
+                "_id" : "5f0d3ddcf000f8111cbfc3cf",
+                "role" : "ManagementCompanyViewer",
+                "type" : "SYSTEM_DEFINED",
+                "propertyId": 692,
+                "privileges" : [
+                  {
+                    "resource" : "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_FNB_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_REGISTRATION",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ABOVE_PROPERTY_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_SUBMISSION",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_LIST",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "IMPORT",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_ADMIN_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "CORPORATE_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "ABOVE_PROPERTY_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_REGISTRATION",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_ROOMS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ROOMS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_ROOMS",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_ROOMS",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_OTHER_INCOME_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_OTHER_INCOME",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "REPORT_CRITERIA",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_LANDING_MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ACCOUNTS_COMPANIES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_INVENTORY_SETUP",
+                    "action" : "READ"
+                  }
+                ]},
+              {
+                "_id" : "5f0d3ddcf000f8111cbfc3cd",
+                "role" : "ManagementCompanyEditor",
+                "propertyId": 692,
+                "type" : "SYSTEM_DEFINED",
+                "privileges" : [
+                  {
+                    "resource" : "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_FNB_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_REGISTRATION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ABOVE_PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_SUBMISSION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_LIST",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "IMPORT",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ADMIN_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "CORPORATE_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ABOVE_PROPERTY_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_REGISTRATION",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_ROOMS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ROOMS_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "PROPERTY_OTHER_INCOME_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_OTHER_INCOME",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "REPORT_CRITERIA",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MESSAGES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_LANDING_MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ACCOUNTS_COMPANIES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  }
+                ]},
+              {
+                "_id" : "5f0d3ddcf000f8111cbfc3cb",
+                "role" : "ManagementCompanyAdmin",
+                "propertyId": 692,
+                "type" : "SYSTEM_DEFINED",
+                "privileges" : [
+                  {
+                    "resource" : "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ADD_PROPERTY",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_FNB_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_REGISTRATION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ABOVE_PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_SUBMISSION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_LIST",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "IMPORT",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ADMIN_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "CORPORATE_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ABOVE_PROPERTY_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_REGISTRATION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ROOMS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ROOMS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_OTHER_INCOME_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_OTHER_INCOME",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "REPORT_CRITERIA",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MESSAGES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_LANDING_MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ACCOUNTS_COMPANIES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_OTHER_INCOME",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION_UNLOCK_ACTION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION_UNLOCK_ACTION",
+                    "action" : "READ_WRITE"
+                  }
+                ]},
+              {
+                "_id":"5f28f346f000f80940bde350",
+                "role": "PropertyAdmin",
+                "propertyId": 692,
+                "type": "SYSTEM_DEFINED",
+                "privileges": [{
+                  "resource": "ABOVE_PROPERTY_USER",
+                  "action": "READ"},
+                  {
+                    "resource": "PROPERTY_ADMIN_USER",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PROPERTY_FNB_SETUP",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PROPERTY_USER",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PROPERTY_LIST",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_ROOMS_SETUP",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PROPERTY_SUBMISSION",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "IMPORT",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PROPERTY_REGISTRATION",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PLANNING_REVENUE_ROOMS",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PLANNING_FORECASTING_ROOMS",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_OTHER_INCOME_SETUP",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "PLANNING_REVENUE_OTHER_INCOME",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "REPORT_CRITERIA",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "MESSAGES",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_LANDING_MESSAGES",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "INTEL_ACCOUNTS_COMPANIES",
+                    "action": "READ_WRITE"
+                  },
+                  {
+                    "resource": "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action": "READ"
+                  },
+                  {
+                    "resource": "PROPERTY_INVENTORY_SETUP",
+                    "action": "READ_WRITE"
+                  }
+                ]},
+              {
+                "_id" :"605042dcc4100e333698aed8",
+                "role" : "ManagementCompanyAdminPlusFinance",
+                "propertyId": 692,
+                "type" : "SYSTEM_DEFINED",
+                "privileges" : [
+                  {
+                    "resource" : "PROPERTY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ADD_PROPERTY",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_FNB_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_REGISTRATION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ABOVE_PROPERTY_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_SUBMISSION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_LIST",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_IMPACT_EVENTS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "IMPORT",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ADMIN_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "CORPORATE_USER",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ABOVE_PROPERTY_USER",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_REGISTRATION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_ROOMS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_FNB_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_ROOMS_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_GEO_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_BI_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_PACE_AND_PICKUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "INTEL_ROOMS_GROUP_ANALYTICS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_ROOMS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_FOOD_AND_BEVERAGE",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_RESIDENT_GUEST",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_OTHER_INCOME_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_OTHER_INCOME_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_REVENUE_OTHER_INCOME",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "REPORT_CRITERIA",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MESSAGES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_LANDING_MESSAGES",
+                    "action" : "READ"
+                  },
+                  {
+                    "resource" : "INTEL_ACCOUNTS_COMPANIES",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PROPERTY_INVENTORY_SETUP",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "PLANNING_FORECASTING_OTHER_INCOME",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ACTIONABLE_NOTIFICATIONS",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "MANAGEMENT_COMPANY_SUBMISSION_UNLOCK_ACTION",
+                    "action" : "READ_WRITE"
+                  },
+                  {
+                    "resource" : "ENTERPRISE_REPORTING",
+                    "action" : "READ_WRITE"
+                  }
+                ]
+              }
+            ]
+}
